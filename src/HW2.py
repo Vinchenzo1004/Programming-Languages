@@ -39,6 +39,7 @@ def ask_questions():
     return total_score
 
 def determine_nerdity(total_score):
+    print("\nResult: ")
     if total_score < 0:
         return "Congratulations, you're extremely boring and like to have no fun whatsoever. No one likes you."
     elif total_score == 0:

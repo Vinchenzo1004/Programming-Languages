@@ -2,24 +2,24 @@ import random
 
 questions = [
     {
-        "Spaghetti or Meat?\na. Spaghetti\nb. Meat\nc. None\nd. Both",
+        "question": "Spaghetti or Meat?\na. Spaghetti\nb. Meat\nc. None\nd. Both",
         "scores": {"a": 2, "b": 1, "c": -1, "d": 0}
     },
     {
-    "How many eggs tall are you?\na. Ten\nb. About seven\nc. A number that is better than 24 ;)\nd. This is a stupid question",
-    "scores": {"a": 0, "b": 2, "c": 1, "d": -1}
+        "question": "How many eggs tall are you?\na. Ten\nb. About seven\nc. A number that is better than 24 ;)\nd. This is a stupid question",
+        "scores": {"a": 0, "b": 2, "c": 1, "d": -1}
     },
     {
-    "Who's the best live action Spider-Man?\na. Tom Holland\nb. Tobey Maguire\nc. Andrew Garfield\nd. None, Spider-Man's for nerds",
-    "scores": {"a": 0, "b": 1, "c": 2, "d": -1}
+        "question": "Who's the best live action Spider-Man?\na. Tom Holland\nb. Tobey Maguire\nc. Andrew Garfield\nd. None, Spider-Man's for nerds",
+        "scores": {"a": 0, "b": 1, "c": 2, "d": -1}
     },
     {
-    "What's the first ten digits of pi?\na. 3.141592653\nb. 3.141582653\nc. 3.142592653\nd. 3.141592663",
-    "scores": {"a": -1, "b": 1, "c": 2, "d": 0}
+        "question": "What's the first ten digits of pi?\na. 3.141592653\nb. 3.141582653\nc. 3.142592653\nd. 3.141592663",
+        "scores": {"a": -1, "b": 1, "c": 2, "d": 0}
     },
     {
-    "If when you do so, would you and when, but also how and why, possibly who?\na. What are you even saying?\nb. Yes, Today, With a Moonlight Greatsword, Because, No\nc. No.\nd. Maybe, Might Be Tomorrow, Might Be With a Kamehameha, Might Be Out of Spite or Vengenance, You.",
-    "scores": {"a": -1, "b": 1, "c": 0, "d": 2}
+        "question": "If when you do so, would you and when, but also how and why, possibly who?\na. What are you even saying?\nb. Yes, Today, With a Moonlight Greatsword, Because, No\nc. No.\nd. Maybe, Might Be Tomorrow, Might Be With a Kamehameha, Might Be Out of Spite or Vengenance, You.",
+        "scores": {"a": -1, "b": 1, "c": 0, "d": 2}
     }
 ]
 
